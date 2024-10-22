@@ -25,3 +25,16 @@ cout<<"Enter your name \n";
 cin>>name;
 cout<<"Your name is "<<name<<endl;
 }
+
+/* Code3 */
+#include <iostream>
+using namespace std;
+int main() {
+char name[50];
+char sirname[50];
+cout<<"Enter your name \n";
+cin>>name;
+cout<<"Enter your sirname \n";
+cin>>sirname;
+cout<<"Your name is "<<name<<" "<<sirname;
+}
