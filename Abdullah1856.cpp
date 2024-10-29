@@ -38,3 +38,21 @@ cout<<"Enter your sirname \n";
 cin>>sirname;
 cout<<"Your name is "<<name<<" "<<sirname;
 }
+
+/* Code4 */
+#include <iostream>
+using namespace std;
+class student {
+	private: int rollno =  10;
+	public:
+		void display() {
+			cout<<"The roll no is: " <<rollno;
+		}
+};
+
+int main() {
+	student s;
+	s.display();
+	return 0;
+}
+
