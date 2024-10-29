@@ -56,3 +56,19 @@ int main() {
 	return 0;
 }
 
+/* Code-Practice */
+#include <iostream>
+using namespace std;
+class abdullah {
+	private: char name[50] = "Abdullah Bin Arshad";
+	public:
+		void show_name() {
+			cout<< "The name is: " <<name;
+		}		
+};
+
+int main() {
+	abdullah n;
+	n.show_name();
+	return 0;
+}
