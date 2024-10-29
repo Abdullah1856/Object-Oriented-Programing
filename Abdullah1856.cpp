@@ -72,3 +72,24 @@ int main() {
 	n.show_name();
 	return 0;
 }
+
+/* Code5 */
+#include <iostream>
+#include <string>
+using namespace std;
+
+class student {
+	private: 
+		int n;
+	public:
+		void display(int rollno, const char* name) {
+			cout<< "The roll is no: "<< rollno << endl;
+			cout<< "the name is: " << name <<endl;
+		}	
+};
+
+int main() {
+	student s;
+	s.display(1, "Ali");
+	return 0;
+}
