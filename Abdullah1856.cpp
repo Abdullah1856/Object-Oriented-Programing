@@ -122,3 +122,20 @@ cout << setw (5) << a << setw (9) << b << setw (13) << c << setw (17) << d <<  e
 cout << setw (6) << a << setw (10) << b << setw (14) << c << setw (18) << d <<  endl;
 cout << setw (7) << a << setw (11) << b << setw (15) << c << setw (19) << d <<  endl;
 }
+
+/* Code8 */
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main () {
+int number1, number2;
+cout <<"Enter the first number:" << endl;
+cin >>number1;
+cout <<"Enter the second number:" << endl;
+cin >>number2;
+cout <<"The number are these: "<< number1 << number2 << endl;
+cout <<"Now we are swaping the number" << endl;
+cout <<"After Swaping: " << number2 << number1;
+}
+
+//cout << setw (1) << number1 << setw (2) << number2 << endl;
