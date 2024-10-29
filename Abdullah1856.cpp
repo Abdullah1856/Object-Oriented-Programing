@@ -105,3 +105,20 @@ cout << "Local c: " << ::c << "\n";
 cout << "Global c: " << c << "\n"; //using scope resolution operator
 return 0;
 }
+
+/* Code7 */
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main (void)
+{
+int a,b,c,d;
+a = 200;
+b = 300;
+c = 400;
+d = 500;
+cout << setw (4) << a << setw (8) << b << setw (12) << c << setw (16) << d << endl;
+cout << setw (5) << a << setw (9) << b << setw (13) << c << setw (17) << d <<  endl;
+cout << setw (6) << a << setw (10) << b << setw (14) << c << setw (18) << d <<  endl;
+cout << setw (7) << a << setw (11) << b << setw (15) << c << setw (19) << d <<  endl;
+}
