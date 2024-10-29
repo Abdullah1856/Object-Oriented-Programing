@@ -93,3 +93,15 @@ int main() {
 	s.display(1, "Ali");
 	return 0;
 }
+
+
+/* Code6 */
+#include <iostream>
+using namespace std;
+char c = 'a'; // global variable
+int main() {
+char c = 'b'; //local variable
+cout << "Local c: " << ::c << "\n";
+cout << "Global c: " << c << "\n"; //using scope resolution operator
+return 0;
+}
