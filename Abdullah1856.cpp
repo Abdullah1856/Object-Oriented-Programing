@@ -311,3 +311,35 @@ y = temp; /* put x into y */
 return;
 }
 
+// Max and Min
+#include <iostream>
+using namespace std;
+inline int Max(int x, int y)
+{
+return (x > y)? x : y;
+}
+// Main function for the program
+int main( )
+{
+int a,b,c,max1,max2;
+	
+cout<< "Enter input1"<<endl;	
+cin>>a;
+
+cout<< "Enter input2"<<endl;	
+cin>>b;
+
+cout<< "Enter input3"<<endl;	
+cin>>c;
+
+max1 = Max(a,b);
+max2 = Max(max1,c);
+
+cout << "Max (a,b): " << max1 << endl;
+cout << "Max(max1,c): " << max2 << endl;
+
+
+//cout << "Max (0,200): " << Max(0,200) << endl;
+//cout << "Max (100,1010): " << Max(100,1010) << endl;
+return 0;
+}
