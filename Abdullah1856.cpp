@@ -139,3 +139,19 @@ cout <<"After Swaping: " << number2 << number1;
 }
 
 //cout << setw (1) << number1 << setw (2) << number2 << endl;
+
+
+// Display Name and Address
+#include<iostream>
+using namespace std;
+int main() {
+	char name[50],address[50];
+	
+	cout<<"What is your name"<<endl;
+	cin>>name;
+	
+	cout<<"What is your address"<<endl;
+	cin>>address;
+	
+	cout<<"Name is: "<<name<<" Address is: "<<address;
+}
