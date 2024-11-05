@@ -225,6 +225,7 @@ int main() {
 	
 }
 
+
 // Swaping on base of Ascending order
 #include <iostream>
 using namespace std;
@@ -252,10 +253,9 @@ cout << "After swap, value of number2 :" << number2 << endl;
 cout<< "The swap cant work;";	
 }
 
-//cout << "After swap, value of number1 :" << number1 << endl;
-//cout << "After swap, value of number2 :" << number2 << endl;
 return 0;
 }
+
 // function definition to swap the values.
 void swap(int &x, int &y)
 {
