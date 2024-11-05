@@ -138,7 +138,6 @@ cout <<"Now we are swaping the number" << endl;
 cout <<"After Swaping: " << number2 << number1;
 }
 
-//cout << setw (1) << number1 << setw (2) << number2 << endl;
 
 
 // Display Name and Address
@@ -154,4 +153,29 @@ int main() {
 	cin>>address;
 	
 	cout<<"Name is: "<<name<<" Address is: "<<address;
+}
+
+
+// Arithmetic Operation On 2 Digits
+#include<iostream>
+using namespace std;
+int main() {
+	int number1,number2,plus,minus,divide,multiply;
+	
+	cout<<"Please give first number"<<endl;
+	cin>>number1;
+	
+	cout<<"Please give second number"<<endl;
+	cin>>number2;
+	
+	plus = number1 + number2;
+	minus = number1 - number2;
+	divide = number1 / number2;
+	multiply = number1 * number2;
+	
+	cout<<"The plus answer is: "<<plus<<endl;
+	cout<<"The minus answer is: "<<minus<<endl;
+	cout<<"The divide answer is: "<<divide<<endl;
+	cout<<"The multiply answer is: "<<multiply<<endl;
+	
 }
