@@ -201,3 +201,26 @@ int main() {
 	cout<<"The average of the values is: "<<calcaverage;
 	
 }
+
+
+// Calculates Days, Months, Years
+#include<iostream>
+using namespace std;
+int main() {
+	int number,days,years,months;
+	
+	cout<<"Please enter the number"<<endl;
+	cin>>number;
+	
+	days = number / 30;
+	months = number / 12;
+	years = number % 365;
+	
+	
+	cout<<"The days are : "<<days<<endl;
+	cout<<"The months are : "<<months<<endl;
+	cout<<"The years are : "<<years<<endl;
+	
+	return 0;
+	
+}
