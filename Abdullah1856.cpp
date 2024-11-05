@@ -266,3 +266,48 @@ y = temp; /* put x into y */
 return;
 }
 
+
+
+// Swap Version 2
+#include <iostream>
+using namespace std;
+// function declaration
+void swap(int &x, int &y);
+int main ()
+{
+// local variable declaration:
+int number1,number2;
+cout<<"Enter number 1"<<endl;
+cin>>number1;
+
+cout<<"Enter number 2"<<endl;
+cin>>number2;
+
+cout << "Before swap, value of number1 :" << number1 << endl;
+cout << "Before swap, value of number2 :" << number2 << endl;
+
+/* calling a function to swap the values using variable reference.*/
+if(number1 > number2){
+swap(number1,number2);
+cout << "After swap, value of number1 :" << number1 << endl;
+cout << "After swap, value of number2 :" << number2 << endl;
+} else if(number1 = number2) {
+cout<< "The swap cant work, values are equal;";	
+} else {
+cout<< "The swap cant work;";	
+}
+
+
+return 0;
+}
+
+// function definition to swap the values.
+void swap(int &x, int &y)
+{
+int temp;
+temp = x; /* save the value at address x */
+x = y; /* put y into x */
+y = temp; /* put x into y */
+return;
+}
+
