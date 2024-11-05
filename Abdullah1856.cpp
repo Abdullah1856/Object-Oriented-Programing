@@ -179,3 +179,25 @@ int main() {
 	cout<<"The multiply answer is: "<<multiply<<endl;
 	
 }
+
+// Get average of 3 numbers
+#include<iostream>
+using namespace std;
+int main() {
+	int number1,number2,number3,sum,calcaverage;
+	
+	cout<<"Please enter first number"<<endl;
+	cin>>number1;
+	
+	cout<<"Please enter second number"<<endl;
+	cin>>number2;
+	
+    cout<<"Please enter third number"<<endl;
+	cin>>number3;
+	
+	sum = number1 + number2 + number3;
+	calcaverage = sum / 3;
+	
+	cout<<"The average of the values is: "<<calcaverage;
+	
+}
