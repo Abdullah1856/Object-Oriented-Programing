@@ -374,3 +374,21 @@ while(c<=10){
 }
 cout<<"I'm done"<<endl;
 }
+
+// Final Classes
+// Task1
+#include<iostream>
+using namespace std;
+main() {
+int tablenumber,limit;
+
+cout<<"Enter the table number"<<endl;
+cin>>tablenumber;
+
+cout<<"Enter the table limit"<<endl;
+cin>>limit;
+
+for(int i = 1; i <=limit; i++){
+cout<<tablenumber<<" x "<<i<<" ="<<" "<<tablenumber * i<<endl;
+}
+}
