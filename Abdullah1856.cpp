@@ -343,3 +343,34 @@ cout << "Max(max1,c): " << max2 << endl;
 //cout << "Max (100,1010): " << Max(100,1010) << endl;
 return 0;
 }
+
+
+
+
+// Final Term Classes
+// While Loop
+#include<iostream>
+using namespace std;
+main() {
+int c;
+c=1;
+while(c<=10){
+	cout<<c<<endl;
+	c=c+2;
+}
+cout<<"I'm done"<<endl;
+}
+
+
+
+#include<iostream>
+using namespace std;
+main() {
+int c;
+c=1;
+while(c<=10){
+	cout<<c<<" newports\n"<<endl;
+	c=c+2;
+}
+cout<<"I'm done"<<endl;
+}
